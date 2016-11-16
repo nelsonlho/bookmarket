@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'simple_form'
 gem 'devise'
+gem 'cancan'
 gem 'dotenv-rails'
 
 group :development, :test do
