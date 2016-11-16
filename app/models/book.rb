@@ -1,4 +1,7 @@
 class Book < ApplicationRecord
+  extend FriendlyId
+	friendly_id :name, use: :slugged
+  
   belongs_to :user
 
   has_attached_file :image
@@ -8,5 +11,5 @@ class Book < ApplicationRecord
 		content_type:  /^image\/(png|gif|jpeg)/,
 		message: "Only images allowed"
 
-    validates :image, attachment_presence: true 
+    validates :image, attachment_presence: true
 end
