@@ -34,8 +34,8 @@ gem 'simple_form'
 gem 'devise'
 gem 'cancan'
 gem 'paperclip'
-
-gem 'dotenv-rails'
+gem 'dotenv-rails', groups: [:development]
+gem 'aws-sdk'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
