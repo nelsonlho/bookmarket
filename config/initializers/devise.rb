@@ -7,7 +7,7 @@ Devise.setup do |config|
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
   # config.secret_key = 'f4e0e54ab66ea8b335c52b7578970f9b6e9ff66f1afa69a2d0b6b93c45d1aa086f59273ce92edfda4112e392138bd85bc5dc9fe1e5c7ed089b96fd07f87ae73a'
-
+  config.secret_key = '0f6e1dc54917bacb7b3a801ffe1d16a3756a2522ed034f073c4e38a07d7d9f221d11ddc20b8b79af43ad10783fd44968853103416f9e667c63887bf13f610902'
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class

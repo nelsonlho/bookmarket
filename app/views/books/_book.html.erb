@@ -5,7 +5,7 @@
     <% end %>
     <div class="caption">
       <p><strong><%= link_to book.name, book_path(book) %></strong></p>
-      <p>$<%= book.price %></p>
+      <p>$<%= book.price / 100 %></p>
     </div>
   </div>
 </div>
