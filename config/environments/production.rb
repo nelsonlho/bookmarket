@@ -26,7 +26,8 @@ Rails.application.configure do
   config.assets.compile = false
 
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
-
+  config.assets.initialize_on_precompile = false
+  config.assets.precompile += ['rails_admin/rails_admin.css', 'rails_admin/rails_admin.js']
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.action_controller.asset_host = 'http://assets.example.com'
 
