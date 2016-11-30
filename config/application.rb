@@ -23,6 +23,8 @@ module Bookmarket
 
     }
     config.active_record.raise_in_transactional_callbacks = true
+    config.assets.initialize_on_precompile = false
+    config.assets.precompile += ['rails_admin/rails_admin.css', 'rails_admin/rails_admin.js']
     config.paperclip_defaults = {
         storage: :s3,
         s3_host_name: "s3-us-west-2.amazonaws.com",
