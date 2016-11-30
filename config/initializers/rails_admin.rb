@@ -2,9 +2,10 @@ RailsAdmin.config do |config|
     config.authorize_with do
       redirect_to main_app.root_path unless current_user.try(:admin?)
     end
-  config.assets.precompile += ['rails_admin/rails_admin.css', 'rails_admin/rails_admin.js']
 
   config.assets.initialize_on_precompile = false
+  config.assets.precompile += ['rails_admin/rails_admin.css', 'rails_admin/rails_admin.js']
+
 
   ### Popular gems integration
 
