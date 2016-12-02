@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Please check out:  https://nho-bookmarket.herokuapp.com/ for a live demonstration
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Some information on this app:
+*Built in Ruby 2.3 and Rails 5.0
+*Incorporates Stripe Payment and AWS
+*Uses the rails_admin gem for the Administrator
